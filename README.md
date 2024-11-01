@@ -34,3 +34,23 @@ python manage.py migrate
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+#### ORM
+##### Demo
+```sh
+python manage.py shell
+```
+```sh
+from store.models import Product
+
+# get all products
+Product.objects.all()
+
+# create new product
+product = Product()
+product.name = "Demo"
+product.description = "Demo description"
+product.price = 12.19
+
+product.save()
+```
