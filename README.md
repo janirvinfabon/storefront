@@ -26,3 +26,11 @@ python manage.py runserver
 python manage.py startapp store
 python manage.py startapp tags
 ```
+
+#### Migration
+```sh
+python manage.py migrate
+
+python manage.py makemigrations
+python manage.py migrate
+```
