@@ -13,4 +13,5 @@ pip install -r requirements.txt
 ```sh
 django-admin
 django-admin startproject storefront .
+django-admin startapp playground
 ```
