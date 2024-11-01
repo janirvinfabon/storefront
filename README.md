@@ -20,3 +20,9 @@ django-admin startapp playground
 ```sh
 python manage.py runserver
 ```
+
+### Models
+```sh
+python manage.py startapp store
+python manage.py startapp tags
+```
