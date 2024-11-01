@@ -54,3 +54,9 @@ product.price = 12.19
 
 product.save()
 ```
+
+#### Django Admin
+```sh
+python manage.py createsuperuser
+python manage.py runserver
+```
