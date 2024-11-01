@@ -15,3 +15,8 @@ django-admin
 django-admin startproject storefront .
 django-admin startapp playground
 ```
+
+### Run Application
+```sh
+python manage.py runserver
+```
